@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:AgentPackageManagerDesktop}",
+            "name": "Debug AgentPackageManagerDesktop",
+            "target": "AgentPackageManagerDesktop",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug AgentPackageManagerDesktop"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:AgentPackageManagerDesktop}",
+            "name": "Release AgentPackageManagerDesktop",
+            "target": "AgentPackageManagerDesktop",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release AgentPackageManagerDesktop"
+        }
+    ]
+}
